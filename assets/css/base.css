@@ -1,0 +1,53 @@
+.live{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    height: 16px;
+    width: 34px;
+    font-size: 10px;
+    border-radius: 4px;
+    margin: 0 0 4px 8px;
+
+}
+
+.sidebar-item-play {
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right: 16px;
+    font-size: 20px;
+    border: none;
+    background-color: #231B2E;
+    color: #fff;
+    display: none;
+    padding: 0; /* Đảm bảo không có padding */
+}
+
+.sidebar-item:hover .sidebar-item-play{
+    display: block;
+}
+
+.sidebar-between-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-between-play{
+    position: relative;
+    font-size: 20px;
+    margin-left: 13px;
+    border: none;
+    background-color: #231B2E;
+    color: #fff;
+    display: none;
+    padding: 0;
+}
+
+.sidebar-between-header:hover .sidebar-between-play{
+    display: block;
+}
